@@ -4,3 +4,8 @@ Simple script to add a new user with a given .pub file. It asks you the name of 
 # How to use
 Run: 
 `wget https://github.com/ntovarsolorzano/adduserwithpubfile/blob/main/newuser.sh; chmod +x newuser.sh; bash newuser.sh`
+
+If fails, most likely you dont have 'wget' installed. Run: 
+`sudo apt update -y; sudo apt install wget -y`
+
+Follow the steps. 
